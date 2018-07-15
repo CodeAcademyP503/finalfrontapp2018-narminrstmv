@@ -1,0 +1,201 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Narmin Rustamova">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <!--[if It IE 9]>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+ <![endif]-->
+</head>
+
+<body>
+    <div class="container"style="position: fixed;">
+        <div class="row">
+            <div class="col-8">
+
+                <nav class="nav">
+                    <a class="nav-link" href="#">
+                        <img src="img/logo.png" width="100px" alt="">
+                    </a>
+                    <a class="nav-link disabled" href="#">
+                        <span style="font-size:30px;cursor:pointer" onclick="myFunction()">&#9776;</span>
+                    </a>
+                    <a class="nav-link" href="index.html">Dashboard</a>
+                    <a class="nav-link" href="#">Users</a>
+                    <a class="nav-link" href="#">Settings</a>
+                </nav>
+            </div>
+            <div class="col-4">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">
+                            <i class="fa fa-bell" style="font-size:18px;"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa fa-bars" style="font-size:18px;"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa fa-envelope-open" style="font-size:18px;"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">
+                            <img src="img/6.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container1">
+
+        <div class="row">
+           <div class="col-1">
+
+                <div id="mySidenav" class="sidenav" >
+                        <ul class="nav"  >
+                            <li class="nav-item" >
+                                <a class="nav-link" href="index.html">
+                                    Dashboard
+                                    
+                                    <span class="badge badge-info">NEW</span>
+                                </a>
+                            </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="color.html">
+                       Colors</a>
+                        </li>
+                
+                
+                        <li class="nav-item">
+                            <a class="nav-link" href="calendar.html">
+                            Calendar
+                                <span class="badge badge-danger">PRO</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="carusel.html">
+                             Carousel
+                
+                            </a>
+                        </li>
+                
+                    </ul>
+                    
+                    </div>
+               </div> 
+               <div class="col-11">
+                    <div id="main">
+                            <div class="row">
+                                    <div class="col-xl-3 col-sm-6 mb-3">
+                                      <div class="card text-white bg-primary o-hidden h-100">
+                                        <div class="card-body">
+                                          <div class="card-body-icon">
+                                            <i class="fa fa-fw fa-comments"></i>
+                                          </div>
+                                          <div class="mr-5">Members online!</div>
+                                        </div>
+                                       
+                                         
+                                            <i class="fa fa-angle-right"></i>
+                                            <div class="chart-wrapper mt-3 mx-3" style="height:70px;"><div class="chartjs-size-monitor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
+                                            <canvas id="card-chart1" class="chart chartjs-render-monitor" height="35" style="display: block; height: 70px; width: 230px;" width="115"></canvas>
+                                            </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-xl-3 col-sm-6 mb-3">
+                                      <div class="card text-white bg-warning o-hidden h-100">
+                                        <div class="card-body">
+                                          <div class="card-body-icon">
+                                            <i class="fa fa-fw fa-list"></i>
+                                          </div>
+                                          <div class="mr-5">Members online</div>
+                                        </div>
+                                        <a class="card-footer text-white clearfix small z-1" href="#">
+                                          <span class="float-left">View Details</span>
+                                          <span class="float-right">
+                                            <i class="fa fa-angle-right"></i>
+                                          </span>
+                                        </a>
+                                      </div>
+                                    </div>
+                                    <div class="col-xl-3 col-sm-6 mb-3">
+                                      <div class="card text-white bg-success o-hidden h-100">
+                                        <div class="card-body">
+                                          <div class="card-body-icon">
+                                            <i class="fa fa-fw fa-shopping-cart"></i>
+                                          </div>
+                                          <div class="mr-5">Members online!</div>
+                                        </div>
+                                        <a class="card-footer text-white clearfix small z-1" href="#">
+                                          <span class="float-left">View Details</span>
+                                          <span class="float-right">
+                                            <i class="fa fa-angle-right"></i>
+                                          </span>
+                                        </a>
+                                      </div>
+                                    </div>
+                                    <div class="col-xl-3 col-sm-6 mb-3">
+                                      <div class="card text-white bg-danger o-hidden h-100">
+                                        <div class="card-body">
+                                          <div class="card-body-icon">
+                                            <i class="fa fa-fw fa-support"></i>
+                                          </div>
+                                          <div class="mr-5">Members online</div>
+                                        </div>
+                                        <a class="card-footer text-white clearfix small z-1" href="#">
+                                          <span class="float-left">View Details</span>
+                                          <span class="float-right">
+                                            <i class="fa fa-angle-right"></i>
+                                          </span>
+                                        </a>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+                    
+                    
+               </div>
+        </div>
+    </div>
+
+   
+    <div class="row">
+        <div class="col-sm-6">
+
+        </div>
+        <div class="col-sm-6">
+
+        </div>
+    </div>
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

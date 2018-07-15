@@ -1,0 +1,278 @@
+body {
+    background: #3a4149;
+    width: 1200px;
+    line-height: 1.5;
+    font-size: .875rem;
+
+}
+
+.nav a {
+    color: #c8ced3;
+}
+.container{
+    background-color: #3a4149;
+    color: #3a4149;
+    position: fixed;
+    z-index: 3;
+}
+
+
+/* yan menu */
+.sidenav {
+    height: 100%;
+    width: 0;
+
+    z-index: 1;
+    top: 2;
+    left: 0;
+    background-color: #3a4149;
+    overflow-x: hidden;
+    transition: width .25s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+/* yan menu */
+
+
+/* color sehvem */
+.btn-primary{
+    width: 100%!important;
+    padding-top: 100%;
+}
+.btn-secondary{
+    width: 100%!important;
+    padding-top: 100%;
+}
+.btn-success{
+    width: 100%!important;
+    padding-top: 100%;
+}
+.btn-danger{
+    width: 100%!important;
+    padding-top: 100%;
+}
+.btn-warning{
+    width: 100%!important;
+    padding-top: 100%;
+}
+.btn-info{
+    width: 100%!important;
+    padding-top: 100%;
+}
+.btn-light{
+    width: 100%!important;
+    padding-top: 100%;
+}
+.btn-dark{
+    width: 100%!important;
+    padding-top: 100%;
+}
+.col-2 {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+.h6, h6 {
+    font-size: .600rem;
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: white;
+    margin-top: 0;
+}
+
+
+.swatch-100{
+    background-color:#f3f4f5;
+    width: 100%!important;
+    padding-top: 100%;
+    border-radius: .25rem;
+    border: transparent;
+} 
+.swatch-200{
+    background-color:#e4e7ea;
+    width: 100%!important;
+    padding-top: 100%;
+    border-radius: .25rem;
+    border: transparent;
+    
+}
+.swatch-300{
+    background-color:#c8ced3;
+    width: 100%!important;
+    padding-top: 100%;
+    border-radius: .25rem;
+    border: transparent;
+}
+.swatch-400{
+    background-color:#acb4bc;
+    width: 100%!important;
+    padding-top: 100%;
+    border-radius: .25rem;
+    border: transparent;
+}
+.swatch-500{
+    background-color:#8f9ba6;
+    width: 100%!important;
+    padding-top: 100%;
+    border-radius: .25rem;
+    border: transparent;
+}
+.swatch-600{
+    background-color:#73818f;
+    width: 100%!important;
+    padding-top: 100%;
+    border-radius: .25rem;
+    border: transparent;
+}
+.swatch-700{
+    background-color:#3a4149;
+    width: 100%!important;
+    padding-top: 100%;
+    border-radius: .25rem;
+    border: transparent;
+}
+.swatch-800{
+    background-color:#2f353a;
+    width: 100%!important;
+    padding-top: 100%;
+    border-radius: .25rem;
+    border: transparent;
+}
+.col-2 .swatch-900{
+    background-color: #23282c;
+    width: 100%!important;
+    padding-top: 100%;
+    border-radius: .25rem;
+    border: transparent;
+ 
+}
+
+
+.blue{
+    background-color: #20a8d8;
+    width: 100%!important;
+    padding-top: 100%;
+    border-radius: .25rem;
+    border: transparent;
+}
+.LightBlue{
+    background-color: 	#63c2de;
+    width: 100%!important;
+    padding-top: 100%;
+    border-radius: .25rem;
+    border: transparent;
+}
+.Indigo{
+    background-color: 	#6610f2;
+    width: 100%!important;
+    padding-top: 100%;
+    border-radius: .25rem;
+    border: transparent;
+}
+.Purple{
+    background-color: 	#6f42c1;
+    width: 100%!important;
+    padding-top: 100%;
+    border-radius: .25rem;
+    border: transparent;
+}
+.Pink{
+    background-color: 	#e83e8c;
+    width: 100%!important;
+    padding-top: 100%;
+    border-radius: .25rem;
+    border: transparent;
+}
+.Red{
+    background-color: 	#f86c6b;
+    width: 100%!important;
+    padding-top: 100%;
+    border-radius: .25rem;
+    border: transparent;
+}
+.Orange{
+    background-color: 	#f8cb00;
+    width: 100%!important;
+    padding-top: 100%;
+    border-radius: .25rem;
+    border: transparent;
+}
+
+.Yellow{
+    background-color: 		#ffc107;
+    width: 100%!important;
+    padding-top: 100%;
+    border-radius: .25rem;
+    border: transparent;
+}
+.Green{
+    background-color: 		#4dbd74;
+    width: 100%!important;
+    padding-top: 100%;
+    border-radius: .25rem;
+    border: transparent;
+}
+
+.Teal{
+    background-color: 	#20c997;
+    width: 100%!important;
+    padding-top: 100%;
+    border-radius: .25rem;
+    border: transparent;
+}
+
+.Cyan{
+    background-color: 			#17a2b8;
+    width: 100%!important;
+    padding-top: 100%;
+    border-radius: .25rem;
+    border: transparent;
+}
+
+
+
+
+/* 
+color sehvem */
+
+/* calendar */
+
+
+
+
+/* calendar */
+#main{
+padding: 60px;
+}
+
